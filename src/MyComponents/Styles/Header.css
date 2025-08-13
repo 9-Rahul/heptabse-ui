@@ -1,12 +1,12 @@
 .header {
     width: 100%;
-    /* background-color: red; */
+    background-color: #ffffff;
     height: 72px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
     letter-spacing: 0.25;
 }
 
@@ -18,6 +18,10 @@
     padding-left: 10px;
     margin-left: 5px;
     /* background-color: green; */
+}
+
+.header-left:hover {
+    cursor: pointer;
 }
 
 .logo {

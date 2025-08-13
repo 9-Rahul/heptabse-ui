@@ -1,6 +1,5 @@
 .banner {
-    padding-top: 64px;
-    line-height: 1.5;
+    padding-top: 120px;
 }
 
 .banner-container {
@@ -28,6 +27,7 @@
     color: #2e2e2e;
     font-weight: 700;
     letter-spacing: 0.24px;
+    line-height: 1.4;
 }
 
 .banner-desc {
@@ -35,7 +35,96 @@
     padding-left: 100px;
     padding-right: 100px;
     color: #404244;
-    line-height: 33px;
+    line-height: 30px;
+}
+
+.landing-img-container {
+    width: 100%;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.landing-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.awards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 1.25rem;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.awrd-img-one {
+    width: fit-content;
+    height: auto;
+    object-fit: contain;
+}
+
+.awrd-img-one:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition-duration: 0.15s;
+}
+
+.awrd-img-two {
+    width: fit-content;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.awrd-img-two:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition-duration: 0.15s;
+}
+
+.blue-line {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blue-line span {
+    width: 176px;
+    height: 5px;
+    background-color: #207dff;
+}
+
+.investors-texts {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #404244;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.investors-logos {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.investors-logos span img {
+    max-width: 150px;
+    max-height: 130px;
 }
 
 @media screen and (max-width:800px) {
@@ -56,7 +145,13 @@
 }
 
 @media screen and (max-width: 499px) {
+
+
     .banner-title-desc-container {
         gap: 10px;
+    }
+
+    .landing-img-container {
+        margin-top: 65px;
     }
 }
