@@ -91,6 +91,8 @@
     flex-direction: row;
     gap: 10px;
     align-items: center;
+    justify-content: center;
+    padding-left: 10px;
 }
 
 .btn-cntr-big {
@@ -109,8 +111,8 @@
 }
 
 .hamburger {
-    height: 28px;
-    width: 28px;
+    height: 24px;
+    width: 24px;
     display: none;
 }
 
@@ -136,6 +138,7 @@
         gap: 10px;
     }
 
+
     .line {
         display: none;
     }
@@ -146,9 +149,9 @@
 }
 
 @media screen and (max-width: 599px) {
-
-
-
+    .header-left {
+        padding-left: 5px;
+    }
 
     .header-center button {
         display: none;
