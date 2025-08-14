@@ -72,7 +72,7 @@
     align-items: center;
     padding: 2px 1.25rem;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .awrd-img-one {
@@ -151,6 +151,7 @@
     .banner {
         margin-top: 0px;
         padding-top: 64px;
+        margin-bottom: 10px;
     }
 
     .banner-title {
@@ -174,10 +175,20 @@
         margin-top: 20px;
     }
 
+    .investors-logos {
+        margin-bottom: 70px;
+    }
 }
 
 @media screen and (max-width: 499px) {
+    .banner {
+        padding-top: 50px;
 
+    }
+
+    .investors-logos {
+        margin-bottom: 40px;
+    }
 
     .banner-title-desc-container {
         gap: 10px;

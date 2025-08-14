@@ -10,7 +10,6 @@
 }
 
 .header-container {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,6 +126,10 @@
     height: 24px;
     width: 24px;
     display: none;
+}
+
+.hamburger:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1138px) {
