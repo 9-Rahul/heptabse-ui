@@ -1,7 +1,7 @@
 .blog {
     width: 100%;
     padding: 48px 32px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .blog-container {
@@ -17,7 +17,7 @@
 
 .blog-card-container {
     max-width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -39,7 +39,7 @@
 .blog-thumbnail {
     border-radius: 8px;
     max-width: 100%;
-    background-color: red;
+    /* background-color: red; */
     aspect-ratio: 350 / 200;
     object-fit: cover;
 }

@@ -79,12 +79,14 @@
     width: fit-content;
     height: auto;
     object-fit: contain;
+    /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); */
+
 }
 
 .awrd-img-one:hover {
     cursor: pointer;
-    transform: translateY(-5px);
-    transition-duration: 0.15s;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
 }
 
 .awrd-img-two {
@@ -96,8 +98,8 @@
 
 .awrd-img-two:hover {
     cursor: pointer;
-    transform: translateY(-5px);
-    transition-duration: 0.15s;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
 }
 
 .blue-line {

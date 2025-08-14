@@ -6,6 +6,8 @@ import About from './MyComponents/Pages/About';
 import ResearchSection from './MyComponents/Pages/ResearchSection';
 import Usp from './MyComponents/Pages/Usp';
 import Blog from './MyComponents/Pages/Blog';
+import Pricing from './MyComponents/Pages/Pricing';
+import Footer from './MyComponents/Pages/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <ResearchSection />
       <Usp />
       <Blog />
+      <Pricing />
+      <Footer />
     </div>
   );
 }
