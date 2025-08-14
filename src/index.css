@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "inter";
+  background-color: #ffffff;
+
+  letter-spacing: 0.24;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
