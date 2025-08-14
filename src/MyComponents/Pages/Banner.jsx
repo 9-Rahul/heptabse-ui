@@ -26,9 +26,12 @@ const Banner = () => {
                 <button className='btn-cntr-big'>Start your 7-day trial</button>
             </div>
 
-            <div className="landing-img-container">
-                <img className='landing-img' src={landingImg} alt="landing-img" />
+            <div className="landing-container">
+                <div className="landing-img-container">
+                    <img className="landing-img" src={landingImg} alt="landing-img" />
+                </div>
             </div>
+
 
             <div className="awards-container">
                 <span className="awrd-img-one"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=408608&theme=light&period=daily" alt="awrd-img-one" /></span>

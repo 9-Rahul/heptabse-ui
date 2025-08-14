@@ -1,5 +1,6 @@
 .banner {
-    padding-top: 120px;
+    margin-top: 60px;
+    width: 100%;
 }
 
 .banner-container {
@@ -8,10 +9,11 @@
     align-items: center;
     justify-items: center;
     gap: 45px;
+
 }
 
 .banner-title-desc-container {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 16px;
     display: flex;
     flex-direction: column;
@@ -32,16 +34,24 @@
 
 .banner-desc {
     font-size: 22px;
-    padding-left: 100px;
-    padding-right: 100px;
+    text-align: center;
     color: #404244;
     line-height: 30px;
 }
 
-.landing-img-container {
-    width: 100%;
-    padding: 10px;
+.landing-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: yellow; */
+    display: flex;
     margin-top: 100px;
+}
+
+.landing-img-container {
+    padding: 10px;
+    border-radius: 8px;
+    /* background-color: green; */
+
 }
 
 .landing-img {
@@ -49,6 +59,9 @@
     height: auto;
     object-fit: contain;
     max-width: 100%;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
+    /* background-color: yellow; */
 }
 
 .awards-container {
@@ -120,6 +133,11 @@
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.investors-logos span:hover {
+    cursor: pointer;
 }
 
 .investors-logos span img {
@@ -128,8 +146,14 @@
 }
 
 @media screen and (max-width:800px) {
+    .banner {
+        margin-top: 0px;
+        padding-top: 64px;
+    }
+
     .banner-title {
         font-size: 40px;
+        padding: 10px;
     }
 
     .banner-title-desc-container {
@@ -142,6 +166,12 @@
         font-size: 20px;
     }
 
+    .landing-container {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 499px) {
@@ -151,7 +181,7 @@
         gap: 10px;
     }
 
-    .landing-img-container {
+    .landing-container {
         margin-top: 65px;
     }
 }
