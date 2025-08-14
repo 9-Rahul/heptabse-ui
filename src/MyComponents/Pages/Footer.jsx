@@ -3,6 +3,7 @@ import '../Styles/Footer.css'
 import logo from '../Assets/Icons/logo.svg'
 import discord from '../Assets/Icons/discord-icon.svg'
 import xIcon from '../Assets/Icons/x-icon.svg'
+import mailSvg from '../Assets/Icons/mail.svg'
 const Footer = () => {
     return (
         <footer className="footer">
@@ -17,8 +18,8 @@ const Footer = () => {
 
                     <div className="ftr-icns">
                         <img src={discord} alt="" />
-                        <img src={discord} alt="" />
-                        <img src={discord} alt="" />
+                        <img src={xIcon} alt="" />
+                        <img src={mailSvg} alt="" />
                     </div>
                 </div>
 
